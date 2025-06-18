@@ -1,6 +1,6 @@
 # 🎥🧠 Multimodal Video Summarization with LLMs
 
-This project demonstrates a simple but powerful **multimodal AI pipeline** that integrates **vision, audio, and language** using state-of-the-art models like **Whisper**, **BLIP**, and **Phi-2**.
+This project demonstrates a simple but powerful **multimodal AI pipeline** that integrates **vision, audio, and language** using state-of-the-art models like **Whisper**, **BLIP**, and **Phi-2** LLMs.
 
 🔗 **Try it in Google Colab**:  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/m-hasan-n/Tutorials/blob/main/MultiModal/Video_Understanding.ipynb)
@@ -31,24 +31,26 @@ Given a short video clip, the system performs the following steps:
 
 ## 📌 Example Output
 
-**Video Scene**: A surgeon performing a laparoscopic procedure.
+**Video Scene**: A man inflating a car tyre with a compressor and other tools.
 
 **Whisper Transcription**:
-> “We’re beginning the procedure. The patient is stable and under anesthesia.”
+> “If you've got a nail in your tyre, that's fine, but if the tyre's torn or the alloy wheel itself is damaged, you're going to need to call a breakdown service. You'll find you're a pair kit in ...”
 
 **BLIP Image Captions**:
-- "Surgeon preparing tools in an operating room"
-- "Medical staff gathered around the patient"
+- 'a man kneeling down to a car with leaves on the ground',
+- 'a man is fixing a car tire',
+- 'a man changing the tire on a car'
+- ...
 
-**Final Summary (GPT-4)**:
-> “This video depicts a surgical team performing a laparoscopic procedure. The patient is stable, and the staff are preparing and coordinating under surgical lighting.”
+**Final Summary (Phi-2)**:
+> “A man is fixing a car tire with a sealant bottle and a compressor. He is also inflating the tire using the compressor. He suggests rolling the car forward to help the sealant spread around if the tire is not inflating properly...”
 
 ---
 
 ## 📚 Related Blog Post
 
 📖 Read the full write-up on Medium:  
-👉 [Seeing and Hearing Like AI: A Multimodal LLM Pipeline for Video Understanding](https://medium.com/@yourusername/multimodal-ai-video-summary)
+👉 [A Multimodal LLM Pipeline for Video Understanding](https://medium.com/@yourusername/multimodal-ai-video-summary)
 
 ---
 
@@ -56,8 +58,8 @@ Given a short video clip, the system performs the following steps:
 
 If you're interested in **multimodal AI**, **LLMs**, or applied computer vision + NLP projects, feel free to connect!
 
-🌐 [yourwebsite.com]  
-💼 [LinkedIn](https://linkedin.com/in/yourprofile)
+🌐 [Meduim](https://medium.com/@eng-mhasan)  
+💼 [LinkedIn](https://www.linkedin.com/in/drmhasan/)
 
 ---
 
