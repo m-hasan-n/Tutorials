@@ -50,7 +50,7 @@ Given a short video clip, the system performs the following steps:
 ## 📚 Related Blog Post
 
 📖 Read the full write-up on Medium:  
-👉 [A Multimodal LLM Pipeline for Video Understanding](https://medium.com/@yourusername/multimodal-ai-video-summary)
+👉 [A Multimodal LLM Pipeline for Video Understanding](https://eng-mhasan.medium.com/a-multimodal-llm-pipeline-for-video-understanding-b1738304f96d)
 
 ---
 
