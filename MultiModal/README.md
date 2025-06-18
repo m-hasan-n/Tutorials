@@ -3,7 +3,7 @@
 This project demonstrates a simple but powerful **multimodal AI pipeline** that integrates **vision, audio, and language** using state-of-the-art models like **Whisper**, **BLIP**, and **Phi-2**.
 
 🔗 **Try it in Google Colab**:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/yourrepo/blob/main/your_notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/m-hasan-n/Tutorials/blob/main/MultiModal/Video_Understanding.ipynb)
 
 ---
 
