@@ -1,6 +1,6 @@
 # 🎥🧠 Multimodal Video Summarization with LLMs
 
-This project demonstrates a simple but powerful **multimodal AI pipeline** that integrates **vision, audio, and language** using state-of-the-art models like **Whisper**, **BLIP**, and **GPT-4**.
+This project demonstrates a simple but powerful **multimodal AI pipeline** that integrates **vision, audio, and language** using state-of-the-art models like **Whisper**, **BLIP**, and **Phi-2**.
 
 🔗 **Try it in Google Colab**:  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/yourrepo/blob/main/your_notebook.ipynb)
@@ -13,8 +13,8 @@ Given a short video clip, the system performs the following steps:
 
 1. 🎞️ Extracts keyframes from the video
 2. 🎧 Separates and transcribes the audio using **Whisper**
-3. 🖼️ Captions video frames using a **vision-language model** (BLIP or BLIP-2)
-4. 🤖 Uses **GPT-4** to reason over both image captions and audio transcript to produce a coherent, human-readable **video summary**
+3. 🖼️ Captions video frames using a **vision-language model** (BLIP)
+4. 🤖 Uses **Phi-2** to reason over both image captions and audio transcript to produce a coherent, human-readable **video summary**
 
 ---
 
@@ -23,8 +23,8 @@ Given a short video clip, the system performs the following steps:
 | Component        | Model / Tool            |
 |------------------|--------------------------|
 | Audio Transcription | OpenAI Whisper (`transformers`) |
-| Image Captioning | BLIP / BLIP-2 (Hugging Face) |
-| Language Understanding | GPT-4 (OpenAI API) |
+| Image Captioning | BLIP (Hugging Face) |
+| Language Understanding | Phi-2 (Microsoft) |
 | Notebook Runtime | Google Colab (Python) |
 
 ---
@@ -56,9 +56,7 @@ Given a short video clip, the system performs the following steps:
 
 If you're interested in **multimodal AI**, **LLMs**, or applied computer vision + NLP projects, feel free to connect!
 
-📧 [your.email@example.com]  
 🌐 [yourwebsite.com]  
-🐦 [@your_twitter] (optional)  
 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---
